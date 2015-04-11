@@ -1,1 +1,1 @@
-Countries: <% countries -> countries %><%= countries.join(', ') %><% <- %>
+Hello {%= place %}! Countries: {% countries -> countries %}{%= countries.join(', ') %}{% <- %}

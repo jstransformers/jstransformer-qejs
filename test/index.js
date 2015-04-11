@@ -18,6 +18,11 @@ function assertEqual(output, expected) {
 
 test('QEJS', function (done) {
   var options = {
+    open: '{%',
+    close: '%}',
+    place: 'world'
+  };
+  var locals = {
     'countries': [
       'Canada',
       'United States',
@@ -25,8 +30,8 @@ test('QEJS', function (done) {
       'Columbia'
     ]
   };
-  transform.renderAsync(input, options).then(function (out) {
+  transform.renderAsync(input, options, locals).then(function (out) {
     assertEqual(out.trim(), expected.trim());
     done();
-  }); 
+  });
 });
