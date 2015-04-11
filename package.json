@@ -23,6 +23,7 @@
   "author": "Rob Loach <robloach@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "extend-shallow": "^1.1.2",
     "qejs": "^3.0.5"
   }
 }
