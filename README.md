@@ -1,6 +1,6 @@
 # jstransformer-qejs
 
-JSTransformer support for QEJS.
+[JSTransformer](http://github.com/jstransformers/jstransformer) support for [QEJS](https://github.com/jepso/QEJS).
 
 [![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-qejs/master.svg)](https://travis-ci.org/jstransformers/jstransformer-qejs)
 [![Coverage Status](https://img.shields.io/coveralls/jstransformers/jstransformer-qejs/master.svg)](https://coveralls.io/r/jstransformers/jstransformer-qejs?branch=master)
