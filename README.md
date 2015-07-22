@@ -1,9 +1,10 @@
 # jstransformer-qejs
 
-[JSTransformer](http://github.com/jstransformers/jstransformer) support for [QEJS](https://github.com/jepso/QEJS).
+[QEJS](http://github.com/jepso/QEJS) support for [JSTransformers](http://github.com/jstransformers).
 
 [![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-qejs/master.svg)](https://travis-ci.org/jstransformers/jstransformer-qejs)
 [![Coverage Status](https://img.shields.io/coveralls/jstransformers/jstransformer-qejs/master.svg)](https://coveralls.io/r/jstransformers/jstransformer-qejs?branch=master)
+[![Dependency Status](https://img.shields.io/david/jstransformers/jstransformer-qejs/master.svg)](http://david-dm.org/jstransformers/jstransformer-qejs)
 [![NPM version](https://img.shields.io/npm/v/jstransformer-qejs.svg)](https://www.npmjs.org/package/jstransformer-qejs)
 
 ## Installation

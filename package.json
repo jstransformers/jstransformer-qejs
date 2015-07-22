@@ -1,7 +1,7 @@
 {
   "name": "jstransformer-qejs",
-  "version": "0.0.1",
-  "description": "JSTransformer support for QEJS.",
+  "version": "0.0.2",
+  "description": "QEJS support for JSTransformers.",
   "keywords": [
     "jstransformer"
   ],
@@ -9,21 +9,23 @@
     "index.js"
   ],
   "devDependencies": {
-    "istanbul": "^0.3.5",
-    "testit": "^2.0.2"
+    "test-jstransformer": "^1.0.0"
   },
   "scripts": {
-    "test": "node test",
-    "coverage": "istanbul cover test"
+    "test": "test-jstransformer",
+    "coverage": "test-jstransformer coverage"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/jstransformers/jstransformer-qejs.git"
   },
-  "author": "Rob Loach <robloach@gmail.com>",
+  "author": {
+    "name": "JSTransformers Team",
+    "url": "http://github.com/orgs/jstransformers/people"
+  },
   "license": "MIT",
   "dependencies": {
-    "extend-shallow": "^1.1.2",
+    "extend-shallow": "^2.0.1",
     "qejs": "^3.0.5"
   }
 }
