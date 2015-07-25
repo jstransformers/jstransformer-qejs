@@ -1,6 +1,6 @@
 {
   "name": "jstransformer-qejs",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "QEJS support for JSTransformers.",
   "keywords": [
     "jstransformer"
