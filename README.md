@@ -3,7 +3,7 @@
 [QEJS](http://github.com/jepso/QEJS) support for [JSTransformers](http://github.com/jstransformers).
 
 [![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-qejs/master.svg)](https://travis-ci.org/jstransformers/jstransformer-qejs)
-[![Coverage Status](https://img.shields.io/coveralls/jstransformers/jstransformer-qejs/master.svg)](https://coveralls.io/r/jstransformers/jstransformer-qejs?branch=master)
+[![Coverage Status](https://img.shields.io/codecov/c/github/jstransformers/jstransformer-qejs/master.svg)](https://codecov.io/gh/jstransformers/jstransformer-qejs)
 [![Dependency Status](https://img.shields.io/david/jstransformers/jstransformer-qejs/master.svg)](http://david-dm.org/jstransformers/jstransformer-qejs)
 [![NPM version](https://img.shields.io/npm/v/jstransformer-qejs.svg)](https://www.npmjs.org/package/jstransformer-qejs)
 
@@ -14,7 +14,7 @@
 ## API
 
 ```js
-var qejs = require('jstransformer')(require('jstransformer-qejs'))
+var qejs = require('jstransformer')(require('jstransformer-qejs'));
 
 var template = 'Hello, <%- name %>!';
 var locals = {
