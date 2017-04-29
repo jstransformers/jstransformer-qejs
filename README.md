@@ -1,5 +1,7 @@
 # jstransformer-qejs
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jstransformers/jstransformer-qejs.svg)](https://greenkeeper.io/)
+
 [QEJS](http://github.com/jepso/QEJS) support for [JSTransformers](http://github.com/jstransformers).
 
 [![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-qejs/master.svg)](https://travis-ci.org/jstransformers/jstransformer-qejs)
