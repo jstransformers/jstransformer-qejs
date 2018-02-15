@@ -15,15 +15,15 @@
 ## API
 
 ```js
-var qejs = require('jstransformer')(require('jstransformer-qejs'));
+var qejs = require('jstransformer')(require('jstransformer-qejs'))
 
-var template = 'Hello, <%- name %>!';
+var template = 'Hello, <%- name %>!'
 var locals = {
   name: 'World'
-};
+}
 
 qejs.renderAsync(template, locals, function(err, data) {
-  data.body;
+  data.body
   //=> 'Hello World!'
 });
 ```
